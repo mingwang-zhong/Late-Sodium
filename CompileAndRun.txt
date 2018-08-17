@@ -1,0 +1,12 @@
+Compile:
+nvcc cell.cu -O3 -lm -arch sm_30  -o cell -w
+
+
+
+Run:
+
+LQT2 with normal INaL at Nai = 10 mM:
+./cell 0 hyper.txt 1.0 470 1.0 3.4 10.5 16.0 0.7 0.025
+
+LQT2 with partially blocked INaL at Nai = 5.2 mM:
+./cell 0 hyper.txt 1.0 370 1.0 3.4 5.2 16.0 0.7 0.022
