@@ -22,6 +22,11 @@
 * Bum-Rak Choi (2018)
 *--------------------------------------------------------------- */
 /*---------------------------------------------------------------
+* Restrepo, J. G., Weiss, J. N., & Karma, A. (2008). Calsequestrin-
+* mediated mechanism for cellular calcium transient alternans. 
+* Biophysical journal, 95(8), 3767-3789.
+*--------------------------------------------------------------- */
+/*---------------------------------------------------------------
 * Terentyev, D., Rees, C. M., Li, W., Cooper, L. L., Jindal, H. K., 
 * Peng, X., ... & Bist, K. (2014). Hyperphosphorylation of RyRs 
 * underlies triggered activity in transgenic rabbit model of LQT2 
