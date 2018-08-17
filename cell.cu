@@ -10,7 +10,6 @@
 * Departments of Physics, Northeastern University
 * 
 * Alain Karma		a.karma (at) northeastern.edu
-* Mingwang Zhong	mingwang.zhong (at) gmail.com
 *
 * The code was used to produce Fig. 6 in:
 * Late INa blocker GS967 Reduced Early Afterdepolarization and 
