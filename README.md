@@ -1,4 +1,4 @@
-# Late-Sodium 
+# Late Sodium 
 
 This code is an investigation of the effect of late sodium current on action potential duration and EAD formation in LQT2 myocytes, described in:
 
@@ -12,3 +12,21 @@ This code is based on an earlier implementation of a similar model described in:
 
 This software is free software, distributed under the 2-clause BSD license. A copy of the license is included in the LICENSE file.
 We cordially ask that any published work derived from this code, or utilizing it references the above-mentioned published works.
+
+## Implementation
+#### Compile the code
+```
+nvcc cell.cu -O3 -lm -arch sm_30  -o cell -w
+```
+
+#### Run the code
+
+LQT2 with normal INaL at Nai = 10.5 mM:
+```
+./cell 0 hyper.txt 1.0 470 1.0 3.4 10.5 16.0 0.7 0.025
+```
+
+LQT2 with partially blocked INaL at Nai = 5.2 mM:
+```
+./cell 0 hyper.txt 1.0 370 1.0 3.4 5.2 16.0 0.7 0.022
+```
